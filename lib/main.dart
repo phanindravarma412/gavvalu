@@ -1,6 +1,7 @@
 //import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
+import 'package:audioplayers/audio_cache.dart';
 
 void main() {
   runApp(Myapp());
@@ -55,6 +56,8 @@ class _GavvalaPageState extends State<GavvalaPage> {
             onPressed: () {
               setState(() {
                 image = Random().nextInt(8) + 1;
+                final player = AudioCache();
+                player.play("gava.wav");
               });
             },
             child: Image(
