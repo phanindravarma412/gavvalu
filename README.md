@@ -1,4 +1,4 @@
-# gavvalu
+# Gavvalu
 
 A nostalagic native dice to immerse in pure bliss..
 
